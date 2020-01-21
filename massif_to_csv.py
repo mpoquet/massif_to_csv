@@ -3,9 +3,9 @@
 import argparse
 import msparser
 
-def massif_to_csv(massif_text):
-    '''Convert a Massif string to a CSV string.'''
-    data = msparser.parse(massif_text)
+def massif_to_csv(massif_filename):
+    '''Convert a Massif file to a CSV string.'''
+    data = msparser.parse_file(massif_filename)
 
     header = 'time,stack,heap,heap_extra'
     lines = [header]
@@ -21,11 +21,9 @@ def massif_to_csv(massif_text):
 
 def massif_file_to_csv_file(massif_filename, csv_filename):
     '''Convert a Massif file to a CSV file.'''
-    with open(massif_filename) as massif_file:
-        massif_text = massif_file.read()
-        with open(csv_filename, 'w') as csv_file:
-            csv_content = massif_to_csv(massif_text) + '\n'
-            csv_file.write(csv_content)
+    with open(csv_filename, 'w') as csv_file:
+        csv_content = massif_to_csv(massif_filename) + '\n'
+        csv_file.write(csv_content)
 
 def main():
     """
