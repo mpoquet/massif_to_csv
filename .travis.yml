@@ -1,0 +1,2 @@
+language: nix
+script: (cd test && nix-shell --pure ../ -A test_shell --command './test.bash')
