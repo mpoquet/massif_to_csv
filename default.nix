@@ -27,8 +27,7 @@ let
         pythonPackages.ipython
         pythonPackages.virtualenv
         pythonPackages.pylint
-        msparser
-      ];
+      ] ++ massif_to_csv.propagatedBuildInputs;
     };
 
     massif_to_csv = pythonPackages.buildPythonPackage rec {
@@ -42,9 +41,15 @@ let
       ];
     };
 
-    installed_shell = pkgs.mkShell {
-      name="shell-with-massif-to-csv";
-      buildInputs=[massif_to_csv];
+    test_shell = pkgs.mkShell {
+      name = "test-shell";
+      buildInputs = [
+        massif_to_csv
+        pkgs.valgrind
+        pkgs.R
+        pkgs.rPackages.tidyverse
+        pkgs.rPackages.docopt
+      ];
     };
   };
 in

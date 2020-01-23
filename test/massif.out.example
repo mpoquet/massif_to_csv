@@ -1,0 +1,771 @@
+desc: (none)
+cmd: /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash ./meh.bash
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=430520
+mem_heap_B=5
+mem_heap_extra_B=19
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=497015
+mem_heap_B=4120
+mem_heap_extra_B=392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=900212
+mem_heap_B=4152
+mem_heap_extra_B=400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1027975
+mem_heap_B=17412
+mem_heap_extra_B=2884
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1168144
+mem_heap_B=24664
+mem_heap_extra_B=5216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1260749
+mem_heap_B=29151
+mem_heap_extra_B=6745
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1393684
+mem_heap_B=34788
+mem_heap_extra_B=8668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1459995
+mem_heap_B=37713
+mem_heap_extra_B=9575
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1601311
+mem_heap_B=43754
+mem_heap_extra_B=11166
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1707253
+mem_heap_B=47851
+mem_heap_extra_B=11989
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1869638
+mem_heap_B=53834
+mem_heap_extra_B=13726
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1947040
+mem_heap_B=56029
+mem_heap_extra_B=14467
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2057626
+mem_heap_B=59518
+mem_heap_extra_B=15650
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2185434
+mem_heap_B=63644
+mem_heap_extra_B=16924
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2298735
+mem_heap_B=66759
+mem_heap_extra_B=17897
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2372914
+mem_heap_B=68919
+mem_heap_extra_B=18585
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2484810
+mem_heap_B=71922
+mem_heap_extra_B=19518
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2598367
+mem_heap_B=74844
+mem_heap_extra_B=20420
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2694924
+mem_heap_B=77181
+mem_heap_extra_B=21147
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2805011
+mem_heap_B=80140
+mem_heap_extra_B=22028
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2886496
+mem_heap_B=82503
+mem_heap_extra_B=22689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2999101
+mem_heap_B=85386
+mem_heap_extra_B=23550
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3073096
+mem_heap_B=87338
+mem_heap_extra_B=24078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3242071
+mem_heap_B=91403
+mem_heap_extra_B=25077
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3374885
+mem_heap_B=94351
+mem_heap_extra_B=25705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3480380
+mem_heap_B=96562
+mem_heap_extra_B=26118
+mem_stacks_B=0
+heap_tree=detailed
+n6: 96562 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 49140 0x4863FCF: add_module.isra.0 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 49140 0x4864882: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 49140 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 49140 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 49140 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 49140 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 49140 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 49140 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 49140 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 49140 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 49140 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 23764 0x48640FE: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 23764 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 23764 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 23764 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 23764 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 23764 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 23764 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 23764 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 23764 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 23764 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 23764 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 14640 0x492E85E: tsearch (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 14640 0x4864138: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 14640 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 14640 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 14640 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 14640 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 14640 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 14640 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 14640 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 14640 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n1: 14640 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n0: 14640 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 4096 0x48ABD38: _IO_file_doallocate (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 4096 0x48BA035: _IO_doallocbuf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 4096 0x48B904B: _IO_file_underflow@@GLIBC_2.2.5 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 4096 0x48AD787: getdelim (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 4096 0x48646C4: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 4096 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 4096 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 4096 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 4096 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+          n1: 4096 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+           n1: 4096 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n1: 4096 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+             n1: 4096 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+              n0: 4096 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 3728 0x486BCD0: _nl_intern_locale_data (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 3728 0x486C53A: _nl_load_locale_from_archive (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 3728 0x486B6E0: _nl_find_locale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 3728 0x486AED3: setlocale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 3728 0x468261: set_default_locale (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+      n0: 3728 0x41C2AE: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n0: 1194 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=3635246
+mem_heap_B=99750
+mem_heap_extra_B=26778
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3725779
+mem_heap_B=101796
+mem_heap_extra_B=27260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3863321
+mem_heap_B=104960
+mem_heap_extra_B=28048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3964490
+mem_heap_B=107140
+mem_heap_extra_B=28644
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=4116836
+mem_heap_B=110492
+mem_heap_extra_B=29452
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=4234401
+mem_heap_B=112714
+mem_heap_extra_B=29966
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=4335355
+mem_heap_B=114236
+mem_heap_extra_B=30268
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=4500056
+mem_heap_B=117184
+mem_heap_extra_B=30712
+mem_stacks_B=0
+heap_tree=detailed
+n6: 117184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 63316 0x4863FCF: add_module.isra.0 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 63316 0x4864882: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 63316 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 63316 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 63316 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 63316 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 63316 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 63316 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 63316 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 63316 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 63316 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 27834 0x48640FE: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 27834 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 27834 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 27834 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 27834 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 27834 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 27834 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 27834 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 27834 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 27834 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 27834 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 17016 0x492E85E: tsearch (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 17016 0x4864138: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 17016 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 17016 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 17016 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 17016 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 17016 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 17016 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 17016 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 17016 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n1: 17016 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n0: 17016 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 4096 0x48ABD38: _IO_file_doallocate (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 4096 0x48BA035: _IO_doallocbuf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 4096 0x48B904B: _IO_file_underflow@@GLIBC_2.2.5 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 4096 0x48AD787: getdelim (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 4096 0x48646C4: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 4096 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 4096 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 4096 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 4096 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+          n1: 4096 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+           n1: 4096 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n1: 4096 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+             n1: 4096 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+              n0: 4096 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 3728 0x486BCD0: _nl_intern_locale_data (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 3728 0x486C53A: _nl_load_locale_from_archive (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 3728 0x486B6E0: _nl_find_locale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 3728 0x486AED3: setlocale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 3728 0x468261: set_default_locale (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+      n0: 3728 0x41C2AE: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n0: 1194 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=4604258
+mem_heap_B=118488
+mem_heap_extra_B=30840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=4696882
+mem_heap_B=120202
+mem_heap_extra_B=31102
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=4823841
+mem_heap_B=122501
+mem_heap_extra_B=31731
+mem_stacks_B=0
+heap_tree=detailed
+n6: 122501 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 67644 0x4863FCF: add_module.isra.0 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 67644 0x4864882: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 67644 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 67644 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 67644 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 67644 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 67644 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 67644 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 67644 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 67644 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 67644 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 28439 0x48640FE: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 28439 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 28439 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 28439 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 28439 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 28439 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 28439 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 28439 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 28439 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 28439 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 28439 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 17400 0x492E85E: tsearch (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 17400 0x4864138: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 17400 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 17400 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 17400 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 17400 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 17400 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 17400 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 17400 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 17400 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n1: 17400 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n0: 17400 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 4096 0x48ABD38: _IO_file_doallocate (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 4096 0x48BA035: _IO_doallocbuf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 4096 0x48B904B: _IO_file_underflow@@GLIBC_2.2.5 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 4096 0x48AD787: getdelim (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 4096 0x48646C4: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 4096 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 4096 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 4096 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 4096 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+          n1: 4096 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+           n1: 4096 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n1: 4096 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+             n1: 4096 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+              n0: 4096 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 3728 0x486BCD0: _nl_intern_locale_data (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 3728 0x486C53A: _nl_load_locale_from_archive (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 3728 0x486B6E0: _nl_find_locale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 3728 0x486AED3: setlocale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 3728 0x468261: set_default_locale (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+      n0: 3728 0x41C2AE: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n0: 1194 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=4952797
+mem_heap_B=124474
+mem_heap_extra_B=32310
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=5131194
+mem_heap_B=128095
+mem_heap_extra_B=33337
+mem_stacks_B=0
+heap_tree=detailed
+n6: 128095 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 71260 0x4863FCF: add_module.isra.0 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 71260 0x4864882: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 71260 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 71260 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 71260 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 71260 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 71260 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 71260 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 71260 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 71260 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 71260 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 29625 0x48640FE: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 29625 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 29625 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 29625 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 29625 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 29625 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 29625 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 29625 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 29625 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 29625 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 29625 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 18192 0x492E85E: tsearch (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 18192 0x4864138: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 18192 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 18192 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 18192 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 18192 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 18192 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 18192 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 18192 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 18192 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n1: 18192 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n0: 18192 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 4096 0x48ABD38: _IO_file_doallocate (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 4096 0x48BA035: _IO_doallocbuf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 4096 0x48B904B: _IO_file_underflow@@GLIBC_2.2.5 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 4096 0x48AD787: getdelim (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 4096 0x48646C4: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 4096 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 4096 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 4096 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 4096 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+          n1: 4096 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+           n1: 4096 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n1: 4096 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+             n1: 4096 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+              n0: 4096 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 3728 0x486BCD0: _nl_intern_locale_data (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 3728 0x486C53A: _nl_load_locale_from_archive (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 3728 0x486B6E0: _nl_find_locale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 3728 0x486AED3: setlocale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 3728 0x468261: set_default_locale (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+      n0: 3728 0x41C2AE: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n0: 1194 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=5288848
+mem_heap_B=130552
+mem_heap_extra_B=34056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=5402717
+mem_heap_B=132512
+mem_heap_extra_B=34632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=5575721
+mem_heap_B=135475
+mem_heap_extra_B=35509
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=5699352
+mem_heap_B=137775
+mem_heap_extra_B=36137
+mem_stacks_B=0
+heap_tree=detailed
+n6: 137775 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 77300 0x4863FCF: add_module.isra.0 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 77300 0x4864882: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 77300 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 77300 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 77300 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 77300 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 77300 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 77300 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 77300 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 77300 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 77300 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 31825 0x48640FE: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 31825 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 31825 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 31825 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 31825 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 31825 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 31825 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 31825 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 31825 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 31825 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 31825 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 19632 0x492E85E: tsearch (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 19632 0x4864138: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 19632 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 19632 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 19632 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 19632 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 19632 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 19632 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 19632 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 19632 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n1: 19632 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n0: 19632 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 4096 0x48ABD38: _IO_file_doallocate (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 4096 0x48BA035: _IO_doallocbuf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 4096 0x48B904B: _IO_file_underflow@@GLIBC_2.2.5 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 4096 0x48AD787: getdelim (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 4096 0x48646C4: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 4096 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 4096 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 4096 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 4096 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+          n1: 4096 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+           n1: 4096 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n1: 4096 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+             n1: 4096 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+              n0: 4096 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 3728 0x486BCD0: _nl_intern_locale_data (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 3728 0x486C53A: _nl_load_locale_from_archive (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 3728 0x486B6E0: _nl_find_locale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 3728 0x486AED3: setlocale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 3728 0x468261: set_default_locale (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+      n0: 3728 0x41C2AE: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n0: 1194 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=5873200
+mem_heap_B=140252
+mem_heap_extra_B=36836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=5941033
+mem_heap_B=141667
+mem_heap_extra_B=37237
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=6054892
+mem_heap_B=143376
+mem_heap_extra_B=37608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=6217981
+mem_heap_B=145448
+mem_heap_extra_B=37984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=6301049
+mem_heap_B=146766
+mem_heap_extra_B=38250
+mem_stacks_B=0
+heap_tree=peak
+n6: 146766 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 83422 0x4863FCF: add_module.isra.0 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 83422 0x4864882: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 83422 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 83422 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 83422 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 83422 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 83422 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 83422 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 83422 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 83422 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 83422 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 33590 0x48640FE: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 33590 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 33590 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 33590 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 33590 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 33590 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 33590 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 33590 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+         n1: 33590 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 33590 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n0: 33590 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 20736 0x492E85E: tsearch (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 20736 0x4864138: add_alias2.isra.1.part.2 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 20736 0x48649C5: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 20736 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 20736 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 20736 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 20736 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 20736 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 20736 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+          n1: 20736 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+           n1: 20736 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n0: 20736 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 4096 0x48ABD38: _IO_file_doallocate (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 4096 0x48BA035: _IO_doallocbuf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 4096 0x48B904B: _IO_file_underflow@@GLIBC_2.2.5 (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 4096 0x48AD787: getdelim (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 4096 0x48646C4: __gconv_read_conf (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+      n1: 4096 0x4863A44: __gconv_find_transform (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+       n1: 4096 0x48EBA87: __wcsmbs_getfct (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+        n1: 4096 0x48EBBBE: __wcsmbs_load_conv (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+         n1: 4096 0x48E0990: mbrtowc (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+          n1: 4096 0x4877B9E: mblen (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+           n1: 4096 0x450962: setifs (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+            n1: 4096 0x43CDAF: initialize_shell_variables (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+             n1: 4096 0x419044: shell_initialize (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+              n0: 4096 0x41CCB6: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n1: 3728 0x486BCD0: _nl_intern_locale_data (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+  n1: 3728 0x486C53A: _nl_load_locale_from_archive (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+   n1: 3728 0x486B6E0: _nl_find_locale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+    n1: 3728 0x486AED3: setlocale (in /nix/store/iykxb0bmfjmi7s53kfg6pjbfpd8jmza6-glibc-2.27/lib/libc-2.27.so)
+     n1: 3728 0x468261: set_default_locale (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+      n0: 3728 0x41C2AE: main (in /nix/store/xfghy8ixrhz3kyy6p724iv3cxji088dx-bash-4.4-p23/bin/bash)
+ n0: 1194 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=6477582
+mem_heap_B=142935
+mem_heap_extra_B=38633
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=8214796
+mem_heap_B=144750
+mem_heap_extra_B=39378
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=8496796
+mem_heap_B=144868
+mem_heap_extra_B=39444
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=8930241
+mem_heap_B=144844
+mem_heap_extra_B=39420
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=8996560
+mem_heap_B=85968
+mem_heap_extra_B=10400
+mem_stacks_B=0
+heap_tree=empty
