@@ -1,4 +1,4 @@
-|ci-status|
+|ci-status| |pypi-badge|
 
 massif_to_csv
 =============
@@ -26,6 +26,11 @@ Installation
     :alt: ci status
     :scale: 100%
     :target: https://travis-ci.org/mpoquet/massif_to_csv/
+
+.. |pypi-badge| image:: https://img.shields.io/pypi/v/massif_to_csv
+    :alt: PyPI package
+    :scale: 100%
+    :target: https://pypi.org/project/massif-to-csv/
 
 .. _Valgrind's Massif tool: https://valgrind.org/docs/manual/ms-manual.html
 .. _CSV: https://en.wikipedia.org/wiki/Comma-separated_values
